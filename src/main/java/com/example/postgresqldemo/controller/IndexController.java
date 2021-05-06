@@ -12,7 +12,7 @@ public class IndexController {
     @GetMapping("/")
     public String showIndex(Model model)
     {
-        model.addAttribute("message","Jello everyone, we are go to back to Spring with together");
+        model.addAttribute("message","Hello everyone, we are go to back to Spring with together");
         model.addAttribute("date",new Date());
         return "index";
 
